@@ -3,10 +3,18 @@
 body {
     font-family: Azeret Mono;
 }
+
 /* ...global..... */
 .description {
     color: rgb(13, 19, 33, 0.7);
 }
+
+.section-heading {
+    width: 852px;
+    text-align: center;
+    margin: 80px auto;
+}
+
 /*........Header Design ......................*/
 .header-section-container {
     margin-bottom: 90px;
@@ -140,19 +148,13 @@ body {
 }
 
 /* .........Target Section Styles..... */
-.target-section-container{
+.target-section-container {
     margin-bottom: 90px;
-}
-.target-heading {
-    width: 852px;
-    text-align: center;
-    margin: 80px auto;
 }
 
 .target-container {
     display: flex;
     width: 1140px;
-    border: 1px solid red;
     margin: 45px auto;
     gap: 30px;
 }
@@ -170,4 +172,29 @@ body {
 .js-card {
     background-color: rgba(255, 223, 0, 0.05);
     padding: 40px;
+}
+
+/* ...........Next Target Style..... */
+.next-target-section-container{
+    margin-bottom: 90px;
+}
+.cards {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+.card {
+    display: flex;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    margin: 25px 0;
+}
+
+.card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
 }
