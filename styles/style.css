@@ -3,7 +3,10 @@
 body {
     font-family: Azeret Mono;
 }
-
+/* ...global..... */
+.description {
+    color: rgb(13, 19, 33, 0.7);
+}
 /*........Header Design ......................*/
 .header-section-container {
     margin-bottom: 90px;
@@ -104,11 +107,6 @@ body {
     font-weight: 700;
 }
 
-.dev-goal .description {
-    color: rgb(13, 19, 33, 0.7);
-
-}
-
 .btn-learn-more {
     border: 1px solid black;
     padding: 10px 20px;
@@ -142,11 +140,34 @@ body {
 }
 
 /* .........Target Section Styles..... */
-.target-heading{
+.target-section-container{
+    margin-bottom: 90px;
+}
+.target-heading {
     width: 852px;
     text-align: center;
-    margin: 45px auto;
+    margin: 80px auto;
 }
-.target-container{
+
+.target-container {
     display: flex;
+    width: 1140px;
+    border: 1px solid red;
+    margin: 45px auto;
+    gap: 30px;
+}
+
+.html-card {
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+
+.css-card {
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+
+.js-card {
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
 }
