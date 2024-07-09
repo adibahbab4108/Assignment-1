@@ -175,9 +175,10 @@ body {
 }
 
 /* ...........Next Target Style..... */
-.next-target-section-container{
+.next-target-section-container {
     margin-bottom: 90px;
 }
+
 .cards {
     width: 1140px;
     margin: 0 auto;
@@ -197,4 +198,42 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 25px;
+}
+
+/* .....Support Section Design...... */
+.support-info {
+    width: 1140px;
+    border: 1px solid;
+    text-align: center;
+    margin: 45px auto;
+    padding: 68px 48px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.543);
+    background-blend-mode: overlay;
+    color: white;
+}
+
+.support-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.input-area input {
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    height: 57px;
+    padding: 0 20px
+}
+
+.input-area button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border-radius: 8px;
+
 }
