@@ -55,11 +55,10 @@ body {
 
 /* ........Development purpose section....... */
 .why-development-section-container {
-    margin-bottom: 90;
     border-radius: 16px;
     width: 1140px;
     background: rgba(13, 19, 33, 0.03);
-    margin: 26px auto;
+    margin: 90px auto;
     padding: 80px;
 }
 
@@ -104,9 +103,10 @@ body {
     font-size: 24px;
     font-weight: 700;
 }
-.dev-goal .description{
+
+.dev-goal .description {
     color: rgb(13, 19, 33, 0.7);
-    
+
 }
 
 .btn-learn-more {
@@ -124,3 +124,29 @@ body {
 }
 
 /* .....Inspiration section Styles....... */
+.inspiration-section-container {
+    width: 1140px;
+    margin: 90px auto;
+}
+
+.inspiration-heading {
+    width: 852px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+}
+
+.inspiration-video iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+/* .........Target Section Styles..... */
+.target-heading{
+    width: 852px;
+    text-align: center;
+    margin: 45px auto;
+}
+.target-container{
+    display: flex;
+}
