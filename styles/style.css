@@ -22,10 +22,15 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 24px;
+    width: 1440px;
+    margin: 34px auto;
+    justify-content: space-between;
 }
-
+.navbar button{
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 10px;
+}
 .cover {
     text-align: center;
     background-image: url(../assets/Hero-bg.png);
@@ -221,6 +226,14 @@ body {
     font-weight: 700;
 }
 
+.support-description {
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
 .input-area input {
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -235,5 +248,17 @@ body {
     font-weight: 600;
     padding: 17px 20px;
     border-radius: 8px;
+}
 
+/* ......Footer Section Style..... */
+.footer-section {
+    padding: 32px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
