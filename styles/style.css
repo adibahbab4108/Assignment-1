@@ -4,7 +4,11 @@ body {
     font-family: Azeret Mono;
 }
 
-/* Header Design ......................*/
+/*........Header Design ......................*/
+.header-section-container {
+    margin-bottom: 90px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -19,9 +23,11 @@ body {
     background-position: center;
 
 }
-.cover-img{
+
+.cover-img {
     margin: 26px 0;
 }
+
 .cover-title {
     color: rgb(13, 19, 33);
     font-size: 48px;
@@ -46,3 +52,75 @@ body {
     margin-bottom: 26px;
     font-size: 20px;
 }
+
+/* ........Development purpose section....... */
+.why-development-section-container {
+    margin-bottom: 90;
+    border-radius: 16px;
+    width: 1140px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 26px auto;
+    padding: 80px;
+}
+
+.dev-heading {
+    text-align: center;
+    width: 852px;
+    margin: 0 auto;
+}
+
+.goal-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.goal-description {
+    color: rgb(13, 19, 33, 0.7);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.dev-goal {
+    display: flex;
+    width: 946px;
+    margin: 90px auto;
+}
+
+.dev-goal .left {
+    width: 50%;
+}
+
+.dev-goal .right {
+    width: 50%;
+}
+
+.dev-goal>.right img {
+    float: right;
+}
+
+.dev-goal .title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+.dev-goal .description{
+    color: rgb(13, 19, 33, 0.7);
+    
+}
+
+.btn-learn-more {
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+/* .....Inspiration section Styles....... */
